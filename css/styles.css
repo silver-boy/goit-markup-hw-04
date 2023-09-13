@@ -200,6 +200,11 @@ body {
     margin-bottom: 8px;
 }
 
+.features-icon {
+    width: 64px;
+    height: 64px;
+}
+
 .section-features-title {
     font-size: 36px;
     line-height: 1.11;
