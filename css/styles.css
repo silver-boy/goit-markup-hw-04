@@ -421,7 +421,7 @@ body {
 }
 
 .footer-container {
-    display: flex;
+    gap: 16px;
     align-items: baseline;
     margin-right: 120px;
 }
