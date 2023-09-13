@@ -40,6 +40,7 @@ p {
 }
 
 .header-nav-link:after {
+    content: '';
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -347,6 +348,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links-svg {
@@ -401,6 +403,8 @@ body {
 
 .customer-item-svg {
     fill: currentcolor;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Footer */
@@ -408,6 +412,7 @@ body {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+    display: flex;
 }
 
 .footer-container {
@@ -527,15 +532,11 @@ body {
 .modal-btn:focus {
     background-color: #404bbf;
     border: none;
+    fill: #FFFFFF;
 }
 
 .modal-btn-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-btn-icon:hover,
-.modal-btn-icon:focus {
-    fill: #ffffff
 }
 
 .is-hidden {
